@@ -1,0 +1,36 @@
+#Files can be found here
+#https://github.com/Zigget/Pet
+#pmisev1.postgres.database.azure.com
+
+
+# -- -- Concept -- --
+#Display 'start/current? date' of program
+
+#1-Check pet insurability and cost *1
+#2-Policyowner options (token?)
+#   -Login
+#       -Add pet to policy *1
+#       -Remove pet from policy
+#       -File Claim
+#       -Print policy
+#   -Signup
+#3-Agent options
+#   -Policy cost chart over time (Numpy per pet and combined)
+#   -Agent's policyowners (pandas 2D)(3D over time?)
+#4-Actuary options (G-Auth)
+#   -Access Agent cut
+#       -Current commission percentage
+#       -Individual agents commission
+#       -Total Amount of all agents paid next month
+#   -Access death values
+#       -Print Values (csv/json)
+#       -Change Values (sql)
+#       -Project Values (seaborn?)
+#4.5-Marketing?
+#   -Adjust marketing up and down to change how quick policies generate?
+#5-Time Travel*
+#   *Moves start date forward
+#   *Collects premium
+#   *Auto kills pets(gently, lol)
+#   *Auto creates policies (Marketing effect?)
+#6-Quit
